@@ -71,7 +71,7 @@
             </div>
         </div>
 
-        <div class="project-section">
+        <div id="projects" class="project-section">
             <h2 class="page-header">Projects</h2>
 
             <div class="project-container">
@@ -199,10 +199,8 @@
 
             <div class="skill-subHeading">
               <p>
-                Hi Everyone My name is John Doe I am a Full Stack Web Developer I
-                have been working for last 3 Years and Currently I am working with a
-                Budding Startup in USA and a full Time Freelancer. Currently I am
-                working on NextJs and Making Beautiful UI-UX are my fey features
+                Hi Everyone My name is Divya Goyal I am a Web Developer I
+                have been working for last 1 year and Currently I am looking for an opportunity as full time employee or as a trainee.
               </p>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non
@@ -233,10 +231,80 @@
             <img src="./images/stack/Git.svg" alt="" class="skills-logo" />
             <img src="./images/stack/Github.svg" alt="" class="skills-logo" />    
           </div>
-        
-        
-        
+       
         </div>
+        
+        <div  id="contactme" class="contactus-form-container">
+          <div class="container">
+            <div class="contactus-heading">Contact me</div>
+            <h3 class="contactus-sub-heading">
+              Questions,thoughts,or just want to say hello?
+            </h3>
+          </div>
+          <div class="contactus-form-container">
+            <form  class="form"action="">
+              <div class="formfield-container">
+                <input class="formfield"
+                type="text"
+                name="name"
+                id=""
+                placeholder="Enter your name">
+
+                <input class="formfield"
+                type="email"
+                name="email"
+                id=""
+                placeholder="Enter your email address">
+
+                <input class="formfield"
+                type="text"
+                name="subject"
+                id=""
+                placeholder="Enter your subject">
+
+                <textarea name="message"
+                id="" cols="30" rows="10"
+                class = "formfield formfield-textarea"
+                placeholder="Enter your message"></textarea>
+
+                <div>
+                  <button type="submit" class="btn-pink" id="submit-btn">
+                    Send Message<i class ="submit-icon fa-solid fa-paper-plane"></i>
+                  </button>
+                </div>
+              </div>
+
+            </form>
+          </div>
+        </div>
+
+        <footer>
+          <div class="container">
+            <div class="footer-wrapper">
+              <div class="footer-faded-text">
+                Divya Goyal
+              </div>
+              <div class="link-wrapper">
+                <div>
+                  <a href="#projects">Projects</a>
+                </div>
+                <div>
+                  <a href="#skills">Skills</a>
+                </div>
+                <div>
+                  <a href="#contactme">Contact</a>
+                </div>
+              </div>
+              <div class="icon-wrapper">
+                <i class="fa-brands fa-linkedin icon"></i>
+                <i class="fa-brands fa-github icon"></i>
+                <i class="fa-regular fa-envelope icon"></i>
+              </div>
+
+
+            </div>
+          </div>
+        </footer>
 
     </div>
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
@@ -244,10 +312,8 @@
   <script>
     var typeData = new Typed(".role", {
       strings: [
-        "Full Stack Developer",
         "Web Developer",
         "UI-UX Designer",
-        "Backend Developer",
         "Coder",
       ],
       loop: true,
